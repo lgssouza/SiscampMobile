@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:hint="@string/lbl_pesquisar"
+    android:label="@string/lbl_pesquisar" >
+
+</searchable>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+
+        <LinearLayout style="@style/FormatLayout" >
+
+            <Button
+                android:id="@+id/btnLinhas"
+                style="@style/BotaoDash"
+                android:drawableTop="@drawable/click_dashboard_linhas"
+                android:onClick="listarLinhas"
+                android:text="@string/lbl_linhas"
+                android:textColor="@drawable/click_dashboard_linhas_color" />
+
+            <Button
+                android:id="@+id/btnServicos"
+                style="@style/BotaoDash"
+                android:drawableTop="@drawable/click_dashboard_servicos"
+                android:onClick="listarProgServico"
+                android:text="@string/lbl_servicos"
+                android:textColor="@drawable/click_dashboard_servicos_color" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/FormatLayout" >
+
+            <Button
+                android:id="@+id/btnContatos"
+                style="@style/BotaoDash"
+                android:drawableTop="@drawable/click_dashboard_contatos"
+                android:onClick="listarContatos"
+                android:text="@string/lbl_contatos"
+                android:textColor="@drawable/click_dashboard_contatos_color" />
+
+            <Button
+                android:id="@+id/btnSobreaviso"
+                style="@style/BotaoDash"
+                android:drawableTop="@drawable/click_dashboard_sobreavisos"
+                android:onClick="listarSobreaviso"
+                android:text="@string/lbl_sobreaviso"
+                android:textColor="@drawable/click_dashboard_sobreavisos_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

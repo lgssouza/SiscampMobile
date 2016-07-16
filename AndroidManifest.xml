@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.siscamp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <!-- <permission -->
+    <!-- android:name="android.permission.SET_TIME" -->
+    <!-- android:protectionLevel="signature|system" /> -->
+
+    <application
+        android:name="br.com.siscamp.network.GoogleVolleyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/cemig"
+        android:installLocation="preferExternal"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="br.com.siscamp.LoginActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.DashboardActivity"
+            android:label="@string/activity_dashboard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.siscamp.ListaLinhasActivity"
+            android:label="@string/activity_list_linhas" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.DescricaoLinhasActivity"
+            android:label="@string/activity_descricao_linhas" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.ListaEstruturasActivity"
+            android:label="@string/activity_list_estruturas" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.MainActivity"
+            android:label="@string/activity_list_estruturas" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.ListaPrestadoresActivity"
+            android:label="@string/activity_contatos_prest" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.ListaVaosActivity"
+            android:label="@string/activity_list_vaos" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.SobreavisoActivity"
+            android:label="@string/activity_sobreaviso"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.ProgServicosActivity"
+            android:label="@string/activity_progservico" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.DescricaoProgServicosActivity"
+            android:label="@string/activity_descricao_progservico" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.ContatosActivity"
+            android:label="@string/activity_list_contatos" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.ListaFuncionariosActivity"
+            android:label="@string/activity_contatos_func" >
+        </activity>
+        <activity
+            android:name="br.com.siscamp.table.TableMain"
+            android:label="@string/activity_descricao_progservico" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.siscamp.DashboardActivity" >
+
+    <item
+        android:id="@+id/menuAtualizar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/lbl_atualizar"/>
+    <item
+        android:id="@+id/menuSair"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/lbl_sair"/>
+
+</menu>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_nomenclatura"
+                    style="@style/Nomenclatura"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/txt_cabopraio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:text="@string/lbl_cabo_praio"
+                    android:textSize="@dimen/padding_large" />
+
+                <EditText
+                    android:id="@+id/edt_cabopraio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint=""
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/txt_cabocond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:text="@string/lbl_cabo_cond"
+                    android:textSize="@dimen/padding_large" />
+
+                <EditText
+                    android:id="@+id/edt_cabocond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint=""
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/txt_largfaixa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:text="@string/lbl_larg_faixa"
+                    android:textSize="@dimen/padding_large" />
+
+                <EditText
+                    android:id="@+id/edt_largfaixa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint=""
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/btn_estruturas"
+                    style="@style/BotaoDescricao"
+                    android:onClick="mostrarEstruturas"
+                    android:text="@string/lbl_btn_est" />
+
+                <Button
+                    android:id="@+id/btn_vao"
+                    style="@style/BotaoDescricao"
+                    android:onClick="mostrarVaos"
+                    android:text="@string/lbl_btn_vao" />
+
+                <Button
+                    android:id="@+id/btn_pdf"
+                    style="@style/BotaoDescricao"
+                    android:onClick="mostrarPlano"
+                    android:text="@string/lbl_btn_pdf" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

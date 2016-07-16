@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String Gerais -->
+    <string name="app_name">SiscampMob</string>
+    <string name="action_settings">Configurações</string>
+    <string name="lbl_pesquisar">Pesquisar</string>
+    <string name="activity_dashboard">Menu Principal</string>
+    <string name="activity_list_linhas">Consulta de Linhas</string>
+    <string name="activity_descricao_linhas">Descrição da Linha</string>
+    <string name="activity_list_estruturas">Lista de Estruturas</string>
+    <string name="activity_list_vaos">Lista de Vãos</string>
+    <string name="activity_list_contatos">Selecione Tipo de Contato</string>
+    <string name="activity_contatos_func">Consulta de Funcionários</string>
+    <string name="activity_contatos_prest">Consulta de Prestadores</string>
+    <string name="activity_sobreaviso">Sobreavisos</string>
+    <string name="activity_progservico">Serviços</string>
+    <string name="activity_descricao_progservico">Programação de Serviços</string>
+
+    <!-- Strings activity_login -->
+    <string name="lbl_login">Login:</string>
+    <string name="lbl_senha">Senha:</string>
+    <string name="lbl_btn_logar">Logar</string>
+    <string name="lbl_sair">Sair</string>
+    <string name="lbl_sobre">Sobre</string>
+
+    <!-- Mensagens activity_login -->
+    <string name="msg_login_obrig">Nome de Usuário Obrigatório!</string>
+    <string name="msg_senha_obrig">Senha Obrigatória!</string>
+    <string name="msg_login_invalido">Usuário ou Senha Inválidos!</string>
+    <string name="msg_login_valido">Login Efetuado com Sucesso!</string>
+    <string name="msg_carregando">Carregando..</string>
+    <string name="msg_desc_sobre">Siscamp - Copyright 2015 - V1.0\nSoftware para Consultas de Linhas da CEMIG.</string>
+    <string name="msg_sair">Deseja Sair?</string>
+
+    <!-- Strings activity_dashboard -->
+    <string name="lbl_linhas">Linhas</string>
+    <string name="lbl_contatos">Contatos</string>
+    <string name="lbl_sobreaviso">Sobreaviso</string>
+    <string name="lbl_servicos">Serviços</string>
+    <string name="lbl_cemig">Cemig</string>
+
+    <!-- Strings activity_contatos -->
+    <string name="lbl_funcionarios">Funcionários</string>
+    <string name="lbl_prestadores">Prestadores</string>
+
+    <!-- Strings Menu Dashboard -->
+    <string name="lbl_atualizar">Atualizar</string>
+    <string name="msg_atualizar">Deseja Atualizar?</string>
+    <string name="msg_sucesso">Atualizado com Sucesso!</string>
+
+    <!-- Strings activity_description_linhas -->
+    <string name="lbl_cabo_praio">Cabo para Raio</string>
+    <string name="lbl_cabo_cond">Cabo Condutor</string>
+    <string name="lbl_larg_faixa">Largura da Faixa</string>
+    <string name="lbl_plano_cont">Plano de Contigência</string>
+    <string name="lbl_btn_est">Estruturas</string>
+    <string name="lbl_btn_vao">Vãos</string>
+    <string name="lbl_btn_pdf">Plano de Contigência</string>
+
+    <!-- Strings activity_progservico -->
+    <string name="lbl_diario">Programação Diária</string>
+    <string name="lbl_semanal">Programação Semanal</string>
+    <string name="lbl_mensal">Programação Mensal</string>
+    <string name="lbl_pesquisa_servico">Buscar Programação</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large"
+    android:screenOrientation="portrait" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+
+        <LinearLayout style="@style/FormatLayout" >
+
+            <Button
+                android:id="@+id/btnFuncionarios"
+                style="@style/BotaoDash"
+                android:drawableTop="@drawable/click_contatos"
+                android:onClick="listarFuncionarios"
+                android:text="@string/lbl_funcionarios"
+                android:textColor="@drawable/click_contatos_color" />
+
+            <Button
+                android:id="@+id/btnPrestadores"
+                style="@style/BotaoDash"
+                android:drawableTop="@drawable/click_contatos"
+                android:onClick="listarPrestadores"
+                android:text="@string/lbl_prestadores"
+                android:textColor="@drawable/click_contatos_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

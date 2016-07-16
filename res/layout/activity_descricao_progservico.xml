@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large" >
+
+    <LinearLayout
+        android:id="@+id/linearServico"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+
+        <!-- <GridView -->
+        <!-- android:id="@+id/gvServico" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:columnWidth="60dp" -->
+        <!-- android:horizontalSpacing="10dp" -->
+        <!-- android:numColumns="auto_fit" -->
+        <!-- android:verticalSpacing="10dp" > -->
+        <!-- </GridView> -->
+    </LinearLayout>
+
+</LinearLayout>

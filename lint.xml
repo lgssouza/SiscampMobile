@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InflateParams">
+        <ignore path="src/br/com/siscamp/DashboardActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/br/com/siscamp/util/ConverterUtil.java" />
+    </issue>
+    <issue id="RtlEnabled">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_descricao_linhas.xml" />
+    </issue>
+</lint>

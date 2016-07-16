@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.siscamp.LoginActivity" >
+
+    
+    <item
+        android:id="@+id/menuSobre"
+        android:orderInCategory="100"
+        android:title="@string/lbl_sobre"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menuSair"
+        android:orderInCategory="200"
+        android:title="@string/lbl_sair"
+        app:showAsAction="never"/>
+
+</menu>
